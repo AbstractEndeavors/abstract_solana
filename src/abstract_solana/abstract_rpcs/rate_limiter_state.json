@@ -1,0 +1,29 @@
+{
+    "last_method": "getBlockTime",
+    "rate_limits": {
+        "https://api.mainnet-beta.solana.com": [
+            {
+                "method": "getBlockTime",
+                "data": 0.01,
+                "time": 1772378740.3014984
+            },
+            {
+                "method": "getBlockTime",
+                "data": 0.01,
+                "time": 1772378741.8856673
+            }
+        ],
+        "null": []
+    },
+    "last_mb": {
+        "https://api.mainnet-beta.solana.com": {
+            "getBlockTime": 0
+        },
+        "null": {}
+    },
+    "cooldown_times": {
+        "https://api.mainnet-beta.solana.com": {},
+        "null": {}
+    },
+    "last_url": "https://api.mainnet-beta.solana.com"
+}
