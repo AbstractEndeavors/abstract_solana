@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='abstract_solana',
-    version='0.0.2.145',
+    version='0.0.2.146',
     author='putkoff',
     author_email='partners@abstractendeavors.com',
     description="",
