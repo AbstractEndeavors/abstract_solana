@@ -1,7 +1,7 @@
 from __future__ import annotations
 from time import sleep, time
 from typing import Dict, List, Optional, Sequence, Union
-from abstract_solana.abstract_utils.pubkey_utils import get_pubkey,get_sigkey
+from ...abstract_utils.pubkey_utils import get_pubkey,get_sigkey
 from solders.hash import Hash as Blockhash
 from solders.keypair import Keypair
 from solders.message import VersionedMessage
@@ -25,7 +25,7 @@ from solana.rpc.core import (
 from sqlalchemy import create_engine, Column, String, Integer, JSON
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import psycopg2
+import psycopg
 import json
 
 

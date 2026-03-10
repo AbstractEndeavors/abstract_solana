@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='abstract_solana',
-    version='0.0.2.144',
+    version='0.0.2.145',
     author='putkoff',
     author_email='partners@abstractendeavors.com',
     description="",
@@ -25,7 +25,13 @@ setuptools.setup(
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
     ],
-    install_requires=['solders','abstract_solcatcher','abstract_utilities','solana','base58'],
+    install_requires=[
+        'solders',
+        'abstract_solcatcher',
+        'abstract_utilities',
+        'solana',
+        'base58'
+        ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
